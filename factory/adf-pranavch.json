@@ -1,0 +1,15 @@
+{
+	"name": "adf-pranavch",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f0caf2f8-8870-4dd1-a787-5d480935f256",
+		"tenantId": "2170d036-d3b3-4b6a-8cd4-95aad775dfb0"
+	}
+}
