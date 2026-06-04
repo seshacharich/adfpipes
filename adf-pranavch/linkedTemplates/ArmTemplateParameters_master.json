@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-pranavch"
+		},
+		"ABSLake_connectionString": {
+			"value": ""
+		},
+		"lsadlsgen2_accountKey": {
+			"value": ""
+		},
+		"lstoasqldb_password": {
+			"value": ""
+		},
+		"lsadlsgen2_properties_typeProperties_url": {
+			"value": "https://sapranav.dfs.core.windows.net/"
+		},
+		"lstoasqldb_properties_typeProperties_server": {
+			"value": "dbserverpranav.database.windows.net"
+		},
+		"lstoasqldb_properties_typeProperties_database": {
+			"value": "dbsqlpranav"
+		},
+		"lstoasqldb_properties_typeProperties_userName": {
+			"value": "pranavadmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
