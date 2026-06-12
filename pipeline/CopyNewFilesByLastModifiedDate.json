@@ -30,10 +30,18 @@
 								"value": "@{pipeline().parameters.LastModified_To}",
 								"type": "Expression"
 							},
+							"wildcardFolderPath": {
+								"value": "@concat(pipeline().parameters.FolderPath_Source,  '/' , pipeline().parameters.Directory_Source)",
+								"type": "Expression"
+							},
 							"wildcardFileName": {
 								"value": "*",
 								"type": "Expression"
-							}
+							},
+							"deleteFilesAfterCompletion": false
+						},
+						"formatSettings": {
+							"type": "BinaryReadSettings"
 						}
 					},
 					"sink": {
