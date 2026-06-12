@@ -8,13 +8,25 @@
 		"ABSLake_connectionString": {
 			"value": ""
 		},
+		"lsadgen2pranav_accountKey": {
+			"value": ""
+		},
 		"lsadlsgen2_accountKey": {
+			"value": ""
+		},
+		"lsadslsgentwo_accountKey": {
 			"value": ""
 		},
 		"lstoasqldb_password": {
 			"value": ""
 		},
+		"lsadgen2pranav_properties_typeProperties_url": {
+			"value": "https://sapranav.dfs.core.windows.net/"
+		},
 		"lsadlsgen2_properties_typeProperties_url": {
+			"value": "https://sapranav.dfs.core.windows.net/"
+		},
+		"lsadslsgentwo_properties_typeProperties_url": {
 			"value": "https://sapranav.dfs.core.windows.net/"
 		},
 		"lstoasqldb_properties_typeProperties_server": {

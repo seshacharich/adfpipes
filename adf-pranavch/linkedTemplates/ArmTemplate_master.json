@@ -11,15 +11,31 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ABSLake'"
 		},
+		"lsadgen2pranav_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'lsadgen2pranav'"
+		},
 		"lsadlsgen2_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'lsadlsgen2'"
+		},
+		"lsadslsgentwo_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'lsadslsgentwo'"
 		},
 		"lstoasqldb_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'lstoasqldb'"
 		},
+		"lsadgen2pranav_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://sapranav.dfs.core.windows.net/"
+		},
 		"lsadlsgen2_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://sapranav.dfs.core.windows.net/"
+		},
+		"lsadslsgentwo_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://sapranav.dfs.core.windows.net/"
 		},
@@ -65,14 +81,26 @@
 					"ABSLake_connectionString": {
 						"value": "[parameters('ABSLake_connectionString')]"
 					},
+					"lsadgen2pranav_accountKey": {
+						"value": "[parameters('lsadgen2pranav_accountKey')]"
+					},
 					"lsadlsgen2_accountKey": {
 						"value": "[parameters('lsadlsgen2_accountKey')]"
+					},
+					"lsadslsgentwo_accountKey": {
+						"value": "[parameters('lsadslsgentwo_accountKey')]"
 					},
 					"lstoasqldb_password": {
 						"value": "[parameters('lstoasqldb_password')]"
 					},
+					"lsadgen2pranav_properties_typeProperties_url": {
+						"value": "[parameters('lsadgen2pranav_properties_typeProperties_url')]"
+					},
 					"lsadlsgen2_properties_typeProperties_url": {
 						"value": "[parameters('lsadlsgen2_properties_typeProperties_url')]"
+					},
+					"lsadslsgentwo_properties_typeProperties_url": {
+						"value": "[parameters('lsadslsgentwo_properties_typeProperties_url')]"
 					},
 					"lstoasqldb_properties_typeProperties_server": {
 						"value": "[parameters('lstoasqldb_properties_typeProperties_server')]"
