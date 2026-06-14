@@ -1,0 +1,17 @@
+{
+	"name": "LsAZSql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "dbserverpranav.database.windows.net",
+			"database": "dbsqlpranav",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "pranavadmin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDEwNURCNkVFLTNDRkUtNERGMy04RDEwLTVBQUI3RjVBMDMyMl9mMWU2NGU4OS04NzllLTQ5ODctOTY3YS1jN2FjMGYyYWVhNjgiDQp9"
+		}
+	}
+}
