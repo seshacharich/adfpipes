@@ -11,6 +11,14 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'ABSLake'"
 		},
+		"LsABS_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'LsABS'"
+		},
+		"LsAZSql_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'LsAZSql'"
+		},
 		"lsadgen2pranav_accountKey": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'lsadgen2pranav'"
@@ -26,6 +34,18 @@
 		"lstoasqldb_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'lstoasqldb'"
+		},
+		"LsAZSql_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "dbserverpranav.database.windows.net"
+		},
+		"LsAZSql_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "dbsqlpranav"
+		},
+		"LsAZSql_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "pranavadmin"
 		},
 		"lsadgen2pranav_properties_typeProperties_url": {
 			"type": "string",
@@ -81,6 +101,12 @@
 					"ABSLake_connectionString": {
 						"value": "[parameters('ABSLake_connectionString')]"
 					},
+					"LsABS_connectionString": {
+						"value": "[parameters('LsABS_connectionString')]"
+					},
+					"LsAZSql_password": {
+						"value": "[parameters('LsAZSql_password')]"
+					},
 					"lsadgen2pranav_accountKey": {
 						"value": "[parameters('lsadgen2pranav_accountKey')]"
 					},
@@ -92,6 +118,15 @@
 					},
 					"lstoasqldb_password": {
 						"value": "[parameters('lstoasqldb_password')]"
+					},
+					"LsAZSql_properties_typeProperties_server": {
+						"value": "[parameters('LsAZSql_properties_typeProperties_server')]"
+					},
+					"LsAZSql_properties_typeProperties_database": {
+						"value": "[parameters('LsAZSql_properties_typeProperties_database')]"
+					},
+					"LsAZSql_properties_typeProperties_userName": {
+						"value": "[parameters('LsAZSql_properties_typeProperties_userName')]"
 					},
 					"lsadgen2pranav_properties_typeProperties_url": {
 						"value": "[parameters('lsadgen2pranav_properties_typeProperties_url')]"

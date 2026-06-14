@@ -8,6 +8,12 @@
 		"ABSLake_connectionString": {
 			"value": ""
 		},
+		"LsABS_connectionString": {
+			"value": ""
+		},
+		"LsAZSql_password": {
+			"value": ""
+		},
 		"lsadgen2pranav_accountKey": {
 			"value": ""
 		},
@@ -19,6 +25,15 @@
 		},
 		"lstoasqldb_password": {
 			"value": ""
+		},
+		"LsAZSql_properties_typeProperties_server": {
+			"value": "dbserverpranav.database.windows.net"
+		},
+		"LsAZSql_properties_typeProperties_database": {
+			"value": "dbsqlpranav"
+		},
+		"LsAZSql_properties_typeProperties_userName": {
+			"value": "pranavadmin"
 		},
 		"lsadgen2pranav_properties_typeProperties_url": {
 			"value": "https://sapranav.dfs.core.windows.net/"
